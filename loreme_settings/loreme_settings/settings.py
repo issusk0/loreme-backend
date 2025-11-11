@@ -31,13 +31,13 @@ ALLOWED_HOSTS = ["*", "loreme-balanceador-1288996234.us-east-1.elb.amazonaws.com
 # Application definition
 
 INSTALLED_APPS = [
-    'loreme_app',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'loreme_app',
 ]
 
 MIDDLEWARE = [
